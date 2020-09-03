@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>Projet 1</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="projet1.css">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+	<link rel="stylesheet" type="text/css" media="screen and (max-width: 768px)" href="projet_petite_resolution.css">
+	<script src="https://kit.fontawesome.com/cfed66e02d.js"></script>
+
+</head>
+
+<body>
+	
+	
+
+	<!-- header-->
+
+	<header id="accueil">
+		<div class="encadrement">
+		<div class="haut">
+			
+				<p><img src="images/logo.png" alt="logo"> </p>
+					<nav>
+						<ul>
+							<li><a href="#accueil">Accueil</a></li>
+							<li><a href="#nos_services">Services</a></li>
+							<li><a href="#portfolio">Portfolio</a></li>
+							<li><a href="#contact">Contact</a></li>
+						</ul>
+					</nav>
+			
+		</div>
+		</div>
+		<div id="slideshow">
+			<img class="slide" src="images/slider/banniere.jpg" alt="Image bleue" />
+			<img  class="slide" src="images/slider/bg2.jpg" alt="Image verte" />
+			
+			<button class="bouton"  onclick="plusIndex(-1)" id="suivant">&#10094</button>
+			<button class="bouton" onclick="plusIndex(1)"  id="precedent">&#10095</button>
+			<!-- div pr contenir et aligner le texte ds le slider-->
+			<div class="contenant_benniere_texte">
+				<div class="banniere_texte">
+					<h1 class="p1"><span class="blue">WEBAGENCY</span>: L'AGENCE DE TOUS <br/>VOS PROJETS !</h1>
+					<p class="p2">Vous avez un projet web? la WebAgency vous aide à le réaliser!  </p>
+					<p><a href="#nos_services" class="info_boutton"> Plus d'infos</a></p>
+				</div>
+			</div>
+		</div>
+
+	</header>
+
+
+	<!-- section1-->
+
+	<section id="nos_services">
+
+		<div id="nos_sevrices_mobile">
+			<h1 >NOS SERVICES</h1>
+				<div class="trait_cercle"><div class="trait"></div><div id="grand_cercle"><div class="cercle"></div></div><div class="trait"></div></div>
+			<p class="description">Création de sites internet, conseil en webmarketing <br/> et stratégie digitale</p>
+		</div>	
+		<div class="apple">
+			<p><img src="images/main-feature.png" alt="image-écran"></p>
+
+			<div class="icone">
+				<div class="rond"><i class="fa fa-line-chart fa-2x" aria-hidden="true"></i> <div class="petit_rond"></div></div>
+				<div class="rond"><i class="fa fa-pie-chart fa-2x" aria-hidden="true"></i><div class="petit_rond"></div></div>
+				<div class="rond"><i class="fa fa-cubes fa-2x" aria-hidden="true"></i><div class="petit_rond"></div></div>
+
+			</div>	
+				<div class="services_detail">
+
+					<h2>Création de site internet</h2>
+					
+						<p> Nous savons exactement ce qu'il faut pour construire un site web esthétique, mais également ce qu'il faut mettre en oeuvre pour générer des résultats.</p>
+						
+
+					<h2>Webmarketing</h2>
+					
+						<p>Nous sommes une agence définitivement humaine et nous croyons en la relation client comme une des clés de la commercialisation.</p>
+					
+					<h2>Digitalisation</h2>
+					
+						<p>Il s'agit d'apporter aux consommateurs une meilleure expérience d'achat, en donnant aux vendeurs tous les outils pour les accompagner dans la démarche.</p>
+					
+				</div>
+		</div>
+
+		
+	</section>
+
+
+	<!-- section2 -->
+	<div class="arrière">
+	<section id="portfolio">
+		
+			<h1 class="nos_projets">NOS PROJETS</h1>
+				<div class="trait_cercle"><div class="trait"></div><div id="grand_cercle"><div class="cercle"></div></div><div class="trait"></div></div>
+			<p class="description">Nous aimons développer des sites Internet qui vous ressemblent <br/> et partager de belles expériences multimédia. </p>
+
+		<div class="filtre_button">
+
+			<div class="triangle"><button id="button1" >All Works </button> <div class="figure"></div></div>
+			<div class="other">
+			<button >Creative</button>
+			<button >Corporate </button>
+			<button >Portfolio </button>
+			</div>
+		</div>	
+
+		<div class="porto">
+			
+				<figure><p><a href="images/portfolio/01.jpg" target="blank"><img src="images/portfolio/1.jpg" alt="logo" width="250px" height="175px"  class="image"></a>  </p><figcaption>Projet 1<div class="icone_oeil"><i class="fa fa-eye" aria-hidden="true"></i></div></figcaption></figure>
+					<figure><p><a href="images/portfolio/02.jpg" target="blank"><img src="images/portfolio/2.jpg" alt="logo" width="250px" height="175px" class="image"></a> </p><figcaption>Projet 2<div class="icone_oeil"><i class="fa fa-eye" aria-hidden="true"></i></div></figcaption></figure>
+				<figure><p><a href="images/portfolio/03.jpg" target="blank"><img src="images/portfolio/3.jpg" alt="logo" width="250px" height="175px" class="image"></a> </p><figcaption>Projet 3<div class="icone_oeil"><i class="fa fa-eye" aria-hidden="true"></i></div></figcaption></figure>
+				<figure><p><a href="images/portfolio/04.jpg" target="blank"><img src="images/portfolio/4.jpg" alt="logo" width="250px" height="175px" class="image"></a> </p><figcaption>Projet 4<div class="icone_oeil"><i class="fa fa-eye" aria-hidden="true"></i></div></figcaption></figure>
+				<figure><p><a href="images/portfolio/05.jpg" target="blank"><img src="images/portfolio/5.jpg" alt="logo" width="250px" height="175px" class="image"></a> </p><figcaption>Projet 5<div class="icone_oeil"><i class="fa fa-eye" aria-hidden="true"></i></div></figcaption></figure>
+				<figure><p><a href="images/portfolio/06.jpg" target="blank"><img src="images/portfolio/6.jpg" alt="logo" width="250px" height="175px" class="image"></a> </p><figcaption>Projet 6<div class="icone_oeil"><i class="fa fa-eye" aria-hidden="true"></i></div></figcaption></figure>
+				<figure><p><a href="images/portfolio/07.jpg" target="blank"><img src="images/portfolio/7.jpg" alt="logo" width="250px" height="175px" class="image"></a> </p><figcaption>Projet 7<div class="icone_oeil"><i class="fa fa-eye" aria-hidden="true"></i></div></figcaption></figure>
+				<figure><p><a href="images/portfolio/08.jpg" target="blank"><img src="images/portfolio/8.jpg" alt="logo" width="250px" height="175px" class="image"></a> </p><figcaption>Projet 8<div class="icone_oeil"><i class="fa fa-eye" aria-hidden="true"></i></div></figcaption></figure>
+			
+		</div>
+	
+	</section>
+	</div>
+
+
+	<!-- footer-->	
+	
+	
+				
+	<footer id="contact">
+	
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.21839429793!2d2.34763471596709!3d48.873113079289006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e145ccb3091%3A0x9495beee8c96ec27!2s25+Rue+d&#39;Hauteville%2C+75010+Paris!5e0!3m2!1sfr!2sfr!4v1511969370798&output=embed&iwloc=near" width="800" height="800" frameborder="0" style="border:0" allowfullscreen>
+			
+				
+		</iframe>
+		 <div class="filtre"></div>
+
+		<!-- div pr contenir et aligner le formulaire-->
+		<div class="contenant_form">
+			<div class="placement_form">
+				<form method="post" action="traitement.php">
+					<div class="adresse">
+						<h2>Contact Info</h2>
+						<p>WebAgency SAS <br/>
+							25 rue d'hauteville 75010 Paris<br/>
+							<span class="tel">tel</span>: 01 02 03 04 05 
+						</p>
+					</div>
+						<p><input type="text" name="name" placeholder="Name"></p>
+						<p><input type="email" name="mail" placeholder="Email"></p>
+						<p><input type="text" name="subject" placeholder="Subject"></p>
+						<p><textarea name="Message" placeholder="Message" ></textarea></p>
+						<p class="bouton"><input type="submit" value="Send Message"></p>
+						
+
+				</form>
+			</div>
+		</div>
+		
+			
+		
+		
+	</footer>
+
+	<script >
+	var index = 1;
+
+	function plusIndex(n){
+		index = index + 1;
+		showImage(index);
+	}
+	showImage(1);
+
+	function showImage(n) {
+		var i;
+		var x = document.getElementsByClassName("slide");
+		if(n > x.length){ index = 1};
+		if(n < 1){ index = x.length};
+		for (i=0; i<x.length;i++)
+		{
+			x[i].style.display = "none";
+		}
+
+		x [index-1].style.display="block";
+	}
+</script>
+
+</body>
+
+</html>

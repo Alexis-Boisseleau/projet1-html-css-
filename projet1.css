@@ -1,0 +1,512 @@
+
+
+body{
+margin: 0px;
+}
+
+
+/*header*/
+
+.encadrement{
+	width: 100%;
+	position:fixed;
+	background-color: white;
+	z-index: 5;
+}
+ .haut{
+ 	width: 1024px;
+ 	height: 100px;
+  	display: flex;
+  	align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    background-color: white;
+   	
+}
+header img{
+	
+	display: flex;
+	align-self: left;
+
+	
+}
+
+nav ul {
+	display: flex;
+	list-style-type: none;
+	
+}
+nav li{
+	margin-right: 15px;
+	font-family: verdana , serif;
+	font-size: 0.8em;
+	
+
+}
+nav a{
+	text-decoration: none;
+	color: rgb(100, 100, 100);
+		
+	font-size: 1.1em;
+
+}
+nav a:hover{
+	border-bottom: 2px solid rgb(92,173,211);
+}
+#slideshow{
+	width: 100%;
+	height:550px;
+	position: relative;
+	
+}
+#slideshow img{
+	
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	margin-top:100px;
+	
+}
+
+#slideshow .bouton{
+	position: relative;
+	font-size: 25px;
+	text-align: right;
+	color: white;
+	background-color: rgba(0,0,0,0.2);
+	top: 350px;
+	left: -50px;
+	width: 50px;
+	height: 50px;
+	border-radius: 25px;
+	border:none;
+	z-index: 4;
+
+	
+}
+
+
+ #slideshow #precedent{
+	position: relative;
+	left: 1795px;
+	text-align: left;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+.contenant_benniere_texte{
+	width: 100%;
+	position: absolute;
+	top: 300px;
+
+}
+.banniere_texte{
+	width: 1024px;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+
+	
+	
+}
+.banniere_texte p{
+	color: white;
+	font-family: verdana, sans serif;
+	font-size: 0.8em;
+}
+
+
+.banniere_texte a{
+	background-color: rgb(92,173,211);
+	color: white;
+
+}
+header h1{
+	font-family: verdana, sans-serif;
+	color: white;
+	font-size: 1.6em;
+}
+
+.blue{
+	color: rgb(92,173,211);
+}
+.info_boutton{
+
+	display: block;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 14px;
+	width: 130px;
+	height: 30px;
+	padding-top: 7px;
+	text-align: center;
+	border-radius: 3px;
+	border-bottom: 2px solid rgb(70,140,173);
+	
+}
+
+
+
+
+/*section 1*/
+
+#nos_services{
+	width: 1024px;
+	margin: auto;
+	height: 650px;
+	font-family: verdana , serif ;
+	margin-bottom: 15px;
+	margin-top:120px;
+
+}
+section h1{
+	text-align: center;
+
+	
+
+	/* algine aussi l'autre h1 contenu ds la section2*/
+}
+.trait_cercle{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#grand_cercle{
+	border-radius:50%;
+  width:20px;
+  height:20px;
+  border: 1px white solid;
+  background-color: white;
+
+}
+.cercle{
+	background-color: rgb(92, 173, 211);
+	border-radius:50%;
+  width:10px;
+  height:10px;
+  border:1px solid rgb(92, 173, 211);
+  margin-left: 4px;
+  margin-top: 4px;
+
+  
+
+}
+.trait{
+	background-color: rgb(230, 230, 230);
+	height: 1px;
+	width: 50px;
+	
+	
+}
+.description{
+	text-align: center;
+}
+.apple{
+	display: flex;
+	font-size: 0.8em;
+	align-items: flex-end;
+}
+h2{
+	
+	margin-bottom: 0px;
+}
+.services_detail{
+	display: flex;
+	flex-direction: column;
+	text-align: justify;
+}
+.icone{
+	height: 300px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	margin-right: 20px;
+}
+
+.fa{
+	position: absolute;
+	right: 12px;
+	bottom: 15px;
+	color:rgb(92, 173, 211);
+
+}
+.rond{  border-radius:50%;
+  width:60px;
+  height:60px;
+  border:1px solid rgb(225, 225, 225);
+  position: relative;
+ 
+}
+.petit_rond{
+	position: absolute;
+	top: 40%;
+	right: -5px;
+	border-radius: 50%;
+	height: 10px;
+	width: 10px;
+	border:1px solid rgb(92, 173, 211);
+	background-color: rgb(92, 173, 211);
+	margin-left: 30px;
+	margin-right: auto;
+
+}
+
+/*section2*/
+
+#portfolio{
+	width: 1024px;
+	height: 750px;
+	margin: auto;
+	font-family: verdana , serif;
+
+
+}
+.arrière{
+	background-color: rgb(245, 245, 245);
+
+}
+.nos_projets{
+
+	padding-top: 20px;
+}
+.porto{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	
+}
+.filtre_button{
+
+	text-align: center;
+	margin-bottom: 30px;
+	display: flex;
+	justify-content: center;
+	
+}
+.description{
+	margin-bottom: 30px;
+}
+
+
+
+section button{
+	font-size: 15px;
+	width: 90px;
+	background-color: rgb(229, 229, 229);
+	color: rgb(132, 135, 139);
+	border: none;
+	padding: 5px;
+	border-radius: 3px;
+
+	
+}
+
+#button1{
+	height: 50px;
+	font-size: 15px;
+	color: white;
+	background-color: rgb(92,173,211);
+	border-bottom: 3px solid rgb(70, 140, 173);
+
+}
+.figure{
+	height: 0;
+	width: 0;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	border-bottom:  10px solid transparent;
+	border-top:  10px solid rgb(70, 140, 173);
+}
+.triangle{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.other{
+	display: flex;
+	height: 50px;
+}
+figure{
+	position: relative;
+	display: inline-block;
+	overflow: hidden;
+	margin: 0;
+
+}
+img, figcaption{
+	transition: all .25s ease;
+}
+.image{
+	display: block;
+}
+figcaption{
+	height:50px;
+	width: 250px;
+	position: absolute;
+	text-align: center;
+	font-size: 1.3em;
+	bottom: 7px;
+	padding-top: 25px;
+	background:#000;
+	background:rgba(0,0,0, .25);
+	color: #fff;
+	opacity: 0;
+
+
+}
+figure:hover img{
+	transform: scale(1.1);
+}
+figure:hover figcaption{
+	opacity: 1;
+}
+.icone_oeil{
+	position: relative;
+	border-radius: 50%;
+	width: 50px;
+	height: 50px;
+	border:2px white solid;
+	left: 75%;
+	bottom: 150%;
+	background-color: rgb(92,173,211);
+
+}
+figcaption .fa{
+	position: absolute;
+	color: white;
+	top: 15px;
+	left: 15px;
+}
+/*footer*/
+
+
+
+#contact{
+	position: relative;
+	height: 650px;
+}
+iframe{
+	width: 100%;
+	height: 650px;
+	position: absolute;
+	bottom: 0px;
+
+
+	z-index: 1;
+}
+.contenant_form{
+	z-index: 3;
+	position: absolute;
+	width: 100%;
+	bottom: 30px;
+	
+
+}
+.placement_form{
+	width: 1024px;
+	margin: auto;
+	display: flex;
+	justify-content: flex-end;
+}
+
+form{
+	
+	width: 350px;
+	height: 500px;
+	border: none;
+	font-family: verdana ,serif;
+	font-size: 0.9em;
+	background-color: rgba(245, 245, 245,0.7);
+	text-align: center;
+	z-index: 3;
+
+	
+}
+
+.filtre{
+	width: 100%;
+	height: 650px;
+	background-color: blue;
+	opacity: 0.2;
+	position: absolute;
+	bottom: 0px;
+	z-index: 2;
+
+}
+
+input{
+	width: 300px;
+	font-family: verdana , serif;
+	margin: -5px;
+
+}
+textarea{
+	width: 300px;
+	height: 200px;
+	
+}
+.adresse{
+	text-align: left;
+	margin-left: 25px;
+}
+input[type="submit"]{
+	width: 130px;
+	height: 30px;
+	background-color: rgb(92, 173, 211);
+	color: white;
+	font-weight: bold;
+	border:  rgb(92, 173, 211);
+	border-radius: 3px;
+	border-bottom: 2px solid rgb(70, 140, 173);
+
+}
+.bouton{text-align: left;
+	margin-left: 25px;
+}
+
+form span{
+	text-decoration: none;
+	border-bottom: dotted 1px;
+}
+
+
+
+
+
+
+
+/* positionement des élement en absolu pr les différents écrans avec les medias queries */
+
+@media all and  (max-width: 1280px){
+
+
+
+
+
+#slideshow #precedent{
+	position: absolute;
+	left: 1237px;
+	
+}
+
+
+}
+
+@media all and  (min-width: 1281px) and (max-width: 1380px )
+
+{
+
+
+#slideshow #precedent{
+	position: absolute;
+	left: 1323px;
+}
+
+} 
+
+
+
+
+/*left: 1795px;
+left: 440px;*/

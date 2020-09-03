@@ -1,0 +1,169 @@
+body{
+	
+	width: 768px;
+	margin: 0px;
+}
+
+/*header version mobile*/
+.encadrement{
+	height: 150px;
+
+	
+}
+.haut{
+	width: 90%;
+	display: flex;
+	flex-direction: column;
+	margin: auto;
+
+
+}
+
+header
+nav ul{
+	
+	display: flex;
+	flex-direction: row;
+	align-items: flex-end;
+	font-size: 1.2em;
+	
+
+	
+}
+#slideshow img{
+	margin-top: 150px;
+}
+.contenant_benniere_texte{
+	position: absolute;
+	top: 250px;
+}
+.banniere_texte{
+	width: 90%;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+
+	
+	
+	
+
+	
+}
+
+
+#slideshow{
+	height: 400px;
+	display: ;
+}
+#slideshow .bouton{
+	top: 325px;
+}
+#slideshow #precedent{
+	left: 710px;
+}
+
+
+/* section services version mobilte*/
+#nos_services{
+	width: 90%;
+	height: 800px;
+	margin: auto;
+
+}
+#nos_sevrices_mobile{
+	
+	display: flex;
+	flex-direction: column;
+	align-items: center; 
+	margin-top: 150px;
+
+}
+.apple{
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	
+
+
+}
+.icone{
+	display: none;
+}
+
+/*portfolio*/
+
+#portfolio{
+	width: 90%;
+	height: 3400px;
+
+}
+.porto{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	
+	
+}
+.porto img{
+	width: 500px;
+	height: 350px;
+}
+figcaption{
+	width: 500px;
+	height: 70px;
+	bottom: 0px;
+}
+.icone_oeil{
+	width: 75px;
+	height: 75px;
+	bottom: 85px;
+}
+figcaption .fa{
+	font-size: 40px;
+}
+/*footer*/
+
+
+iframe{
+	bottom: -650px;}
+
+.filtre{
+	bottom: -650px;
+	height: 670;
+}
+
+.contenant_form{
+	width: 100%;
+	bottom: 0px;
+	background-color: #bdc3c7;
+
+}
+.placement_form{
+	width: 100%;
+
+}
+form{
+	
+	width: 90%;
+	height: 650px;
+	margin: auto;
+	display: flex; 
+	flex-direction: column;
+	align-items: center;
+	background-color: #bdc3c7;
+	border:none;
+	bottom: 0px;
+}
+input{
+	width: 600px;
+
+}
+textarea{
+	width: 600px;
+}
+.adresse{
+	text-align: center;
+	
+}
